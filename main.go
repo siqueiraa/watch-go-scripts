@@ -56,7 +56,6 @@ func restartProcess(command string) {
 
 func main() {
 	configFile := "commands.yaml" // Adjust this to your YAML file name
-
 	for {
 		config, err := loadConfig(configFile)
 		if err != nil {
