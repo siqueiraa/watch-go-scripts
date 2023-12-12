@@ -1,3 +1,3 @@
 processes:
-  go_datafeeder: "./go_datafeeder"
-  go_triggers: "./go_triggers"
+  go_datafeeder: "/home/ubuntu/start_datafeeder.sh"
+  go_triggers: "/home/ubuntu/start_triggers.sh"

@@ -67,6 +67,7 @@ func main() {
 		for processName, command := range config.Processes {
 			log.Println("Checking process:", processName)
 			if !isProcessRunning(processName) {
+				log.Println("Starting:", processName)
 				restartProcess(command)
 			}
 		}
