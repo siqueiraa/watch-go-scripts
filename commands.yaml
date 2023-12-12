@@ -1,0 +1,3 @@
+processes:
+  go_datafeeder: "./go_datafeeder"
+  go_triggers: "./go_triggers"
